@@ -1,0 +1,5 @@
+{
+  "folder": "Daily/Diary",
+  "autorun": true,
+  "template": "@Template/diary template"
+}

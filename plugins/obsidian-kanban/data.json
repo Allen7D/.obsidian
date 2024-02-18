@@ -1,0 +1,22 @@
+{
+  "hide-tags-in-title": true,
+  "tag-colors": [
+    {
+      "tagKey": "#p11",
+      "color": "rgba(202, 68, 48, 1)",
+      "backgroundColor": "rgba(202, 68, 48, 0.1)"
+    },
+    {
+      "tagKey": "#p00",
+      "color": "",
+      "backgroundColor": ""
+    }
+  ],
+  "new-note-template": "Template/daily template.md",
+  "link-date-to-daily-note": true,
+  "date-colors": [],
+  "lane-width": 300,
+  "hide-date-display": false,
+  "hide-date-in-title": true,
+  "show-relative-date": true
+}

@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "77afa1b171510873",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bda45e9124a5f64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dfaf18d7a39e525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React 源码/未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "590dca370f81e09d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b590e35206f7b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdef2a3d130aab99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1bd8b3652665da16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Allen7D/ImageHosting/assets",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d042dcfa1539443b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "b983172ca5c93482",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5
+  },
+  "right": {
+    "id": "8e4ec711cfdc817b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc66d26bc7d8a33f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15bdb792b5646c71",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb911b9d2d5c8252",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "React/React 源码/未命名.md"
+              }
+            }
+          },
+          {
+            "id": "54c701510ce70b44",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "React/React 源码/未命名.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04df3e9faae9d821",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "React/React 源码/未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "881ffe1bcc11bfb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "f257e76549bc6ec4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "canvas:新建白板": true,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "zk-prefixer:创建时间戳笔记": true,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "workbench-obsidian:Workbench": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "float-search:Search Obsidian In Modal": true,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "6dfaf18d7a39e525",
+  "lastOpenFiles": [
+    "元技能/未命名.canvas",
+    "React/React 源码/未命名.md",
+    "技术书籍/《Babel 插件通关秘籍》/未命名 1.md",
+    "深入 TypeScript/未命名.md",
+    "@暂存/Bug记录.md",
+    "@暂存/Bug 修复进度.md",
+    "@暂存/异常提示&脚本能力拓展.md",
+    "@暂存/图元概述.md",
+    "@暂存/图符.md",
+    "@暂存/临时笔记.md",
+    "SupconWork/SupconDesign/Ant Design 架构解析.canvas",
+    "Taro/TaroMusic/项目初始化.md",
+    "图符.md",
+    "SupconWork/HMIKit/动态-显隐.md",
+    "SupconWork/HMIKit/动态-闪烁.md",
+    "元技能/Obsidian/安装 Obsidian （麒麟机）.md",
+    "SupconWork/HMIKit/动态-填充.md",
+    "Excalidraw/Drawing 2023-04-27 20.39.23.excalidraw.md",
+    "Excalidraw/DataLink 数据结构.excalidraw.md",
+    "Excalidraw/流程图渲染流程.excalidraw.md",
+    "Pasted Image 20231103163227_736.png",
+    "Daily/Diary/2024-02-18.md",
+    "@暂存/启蒙App.md",
+    "Daily/Diary/2024-02-12.md",
+    "Daily/Diary/2024-02-17.md",
+    "Git/Git 技巧.md",
+    "@暂存/HTML 技巧.md",
+    "@暂存/未命.md",
+    "SupconWork/SupconDesign/未命名.canvas",
+    "Pasted image 20231107105112.png",
+    "Pasted image 20231122162919.png",
+    "Pasted image 20240108160743.png",
+    "Pasted image 20231122165126.png",
+    "Pasted image 20231122164001.png",
+    "Taro/TaroMusic",
+    "Taro",
+    "001A0A81.png",
+    "元技能/Obsidian",
+    "Daily/Diary",
+    "Daily/Week",
+    "Daily/未命名.canvas",
+    "Daily/未命名 3.canvas",
+    "Daily/未命名 2.canvas",
+    "Daily/未命名 1.canvas",
+    "Faith/必思集",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "Faith/太二十四45-51",
+    "Faith/澶簩鍗佸洓45-51",
+    "代码调试/Chrome 调试",
+    "代码调试/未命名.canvas",
+    "Pasted Image 20230601155747_370.png",
+    "Pasted Image 20230601153829_431.png",
+    "Pasted Image 20230601155248_503.png"
+  ]
+}

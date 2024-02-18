@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "baseFontSize": 18,
+  "cssTheme": "Things",
+  "translucency": false,
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Title",
+    "Callout",
+    "Search",
+    "EditorLine",
+    "Heading"
+  ]
+}
