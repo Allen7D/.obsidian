@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "baseFontSize": 18,
+  "baseFontSize": 14,
   "cssTheme": "Things",
   "translucency": false,
   "showViewHeader": true,
@@ -10,7 +10,10 @@
     "Title",
     "Callout",
     "Search",
+    "FolderAndFile",
+    "Font",
+    "Heading",
     "EditorLine",
-    "Heading"
+    "X-Mermaid"
   ]
 }

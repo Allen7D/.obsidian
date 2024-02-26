@@ -52,10 +52,3 @@ body {
   background-color: #e8e8e8;
 }
 
-/* === 粗体 === */
-b,
-strong,
-.cm-strong {
-  color: var(--bold-color) !important;
-}
-

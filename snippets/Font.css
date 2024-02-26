@@ -1,0 +1,12 @@
+body {
+  --strong-color: rgb(254, 121, 104);
+}
+
+/* === 粗体 === */
+b,
+strong,
+.cm-strong {
+  color: var(--strong-color) !important;
+  font-weight: 900;
+}
+
