@@ -10,10 +10,12 @@
     "Title",
     "Callout",
     "Search",
-    "FolderAndFile",
     "Font",
     "Heading",
     "EditorLine",
-    "X-Mermaid"
+    "X-Mermaid",
+    "FolderAndFile",
+    "dataview",
+    "X-Dataview"
   ]
 }
