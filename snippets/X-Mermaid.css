@@ -1,5 +1,9 @@
 /* Mermaid Tools 插件的样式自定义*/
 
+.mermaid g.root foreignObject div span.nodeLabel {
+  font-size: 14px;
+}
+
 .mermaid g.root foreignObject div span.edgeLabel {
   color: var(--color-green) !important;
   font-size: 12px;
