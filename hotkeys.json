@@ -1,18 +1,4 @@
 {
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    },
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "M"
-    }
-  ],
   "text-snippets-obsidian:text-snippets": [
     {
       "modifiers": [
@@ -30,6 +16,32 @@
         "Shift"
       ],
       "key": "F"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-admonition:insert-callout": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "editing-toolbar:editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
     }
   ]
 }
