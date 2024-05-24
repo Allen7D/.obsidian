@@ -63,6 +63,7 @@
   "persistentTextHighlightsInEmbed": true,
   "persistentAnnotationHighlightsInEmbed": false,
   "highlightBacklinks": true,
+  "selectionBacklinkVisualizeStyle": "highlight",
   "dblclickEmbedToOpenLink": true,
   "highlightBacklinksPane": true,
   "highlightOnHoverBacklinkPane": true,
@@ -80,6 +81,7 @@
   "colorPaletteInToolbar": true,
   "noColorButtonInColorPalette": true,
   "colorPaletteInEmbedToolbar": false,
+  "quietColorPaletteTooltip": false,
   "showStatusInToolbar": true,
   "highlightColorSpecifiedOnly": false,
   "doubleClickHighlightToOpenBacklink": true,
@@ -87,6 +89,7 @@
   "paneTypeForFirstMDLeaf": "right",
   "singleMDLeafInSidebar": true,
   "alwaysUseSidebar": true,
+  "ignoreExistingMarkdownTabIn": [],
   "defaultColorPaletteActionIndex": 4,
   "syncColorPaletteAction": true,
   "syncDefaultColorPaletteAction": false,
@@ -113,6 +116,68 @@
   "pdfLinkColor": "#04a802",
   "pdfLinkBorder": false,
   "replaceContextMenu": true,
+  "showContextMenuOnMouseUpIf": "Mod",
+  "contextMenuConfig": [
+    {
+      "id": "action",
+      "visible": true
+    },
+    {
+      "id": "selection",
+      "visible": true
+    },
+    {
+      "id": "write-file",
+      "visible": true
+    },
+    {
+      "id": "annotation",
+      "visible": true
+    },
+    {
+      "id": "modify-annotation",
+      "visible": true
+    },
+    {
+      "id": "link",
+      "visible": true
+    },
+    {
+      "id": "text",
+      "visible": true
+    },
+    {
+      "id": "search",
+      "visible": true
+    },
+    {
+      "id": "speech",
+      "visible": true
+    },
+    {
+      "id": "page",
+      "visible": true
+    },
+    {
+      "id": "settings",
+      "visible": true
+    }
+  ],
+  "selectionProductMenuConfig": [
+    "color",
+    "copy-format",
+    "display"
+  ],
+  "writeFileProductMenuConfig": [
+    "color",
+    "copy-format",
+    "display"
+  ],
+  "annotationProductMenuConfig": [
+    "copy-format",
+    "display"
+  ],
+  "updateColorPaletteStateFromContextMenu": true,
   "executeBuiltinCommandForOutline": true,
   "executeBuiltinCommandForZoom": true,
   "executeFontSizeAdjusterCommand": true,
@@ -141,8 +206,11 @@
   "clickOutlineItemWithModifierKey": true,
   "clickThumbnailWithModifierKey": true,
   "focusEditorAfterAutoPaste": true,
+  "clearSelectionAfterAutoPaste": true,
   "respectCursorPositionWhenAutoPaste": true,
+  "autoCopy": false,
   "autoFocus": false,
+  "autoPaste": false,
   "autoFocusTarget": "last-active-and-open-then-last-paste",
   "autoPasteTarget": "last-active-and-open-then-last-paste",
   "openAutoFocusTargetIfNotOpened": true,
@@ -152,8 +220,13 @@
   "openAutoFocusTargetInEditingView": true,
   "executeCommandWhenTargetNotIdentified": true,
   "commandToExecuteWhenTargetNotIdentified": "pdf-plus:create-new-note",
-  "selectToCopyToggleRibbonIcon": true,
+  "autoPasteTargetDialogTimeoutSec": 20,
+  "autoCopyToggleRibbonIcon": true,
+  "autoCopyIconName": "highlighter",
   "autoFocusToggleRibbonIcon": true,
+  "autoFocusIconName": "zap",
+  "autoPasteToggleRibbonIcon": true,
+  "autoPasteIconName": "clipboard-paste",
   "viewSyncFollowPageNumber": true,
   "viewSyncPageDebounceInterval": 0.3,
   "openAfterExtractPages": true,
@@ -180,6 +253,8 @@
   "rectEmbedStaticImage": false,
   "rectImageFormat": "file",
   "rectImageExtension": "webp",
+  "zoomToFitRect": false,
+  "rectEmbedResolution": 100,
   "includeColorWhenCopyingRectLink": true,
   "backlinkIconSize": 50,
   "showBacklinkIconForSelection": false,
@@ -187,5 +262,23 @@
   "showBacklinkIconForOffset": true,
   "showBacklinkIconForRect": false,
   "showBoundingRectForBacklinkedAnnot": false,
-  "hideReplyAnnotation": false
+  "hideReplyAnnotation": false,
+  "searchLinkHighlightAll": "true",
+  "searchLinkCaseSensitive": "true",
+  "searchLinkMatchDiacritics": "default",
+  "searchLinkEntireWord": "false",
+  "dontFitWidthWhenOpenPDFLink": true,
+  "preserveCurrentLeftOffsetWhenOpenPDFLink": false,
+  "defaultZoomValue": "page-width",
+  "scrollModeOnLoad": 0,
+  "spreadModeOnLoad": 0,
+  "hoverableDropdownMenuInToolbar": true,
+  "zoomLevelInputBoxInToolbar": true,
+  "popoverPreviewOnExternalLinkHover": true,
+  "actionOnCitationHover": "pdf-plus-bib-popover",
+  "enableBibInEmbed": false,
+  "enableBibInHoverPopover": false,
+  "enableBibInCanvas": true,
+  "removeWhitespaceBetweenCJChars": true,
+  "vim": false
 }

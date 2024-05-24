@@ -1557,7 +1557,10 @@ var Suggest = class {
     }
   }
   setSelectedItem(selectedIndex, scrollIntoView) {
-    const normalizedIndex = this.wrapAround(selectedIndex, this.suggestions.length);
+    const normalizedIndex = this.wrapAround(
+      selectedIndex,
+      this.suggestions.length
+    );
     const prevSelectedSuggestion = this.suggestions[this.selectedItem];
     const selectedSuggestion = this.suggestions[normalizedIndex];
     prevSelectedSuggestion == null ? void 0 : prevSelectedSuggestion.removeClass("is-selected");
@@ -1731,12 +1734,13 @@ var SpecificFilesPlugin = class extends import_obsidian3.Plugin {
       if (!fileObject || !fileObject.file)
         continue;
       const fileName = fileObject.file;
-      let parsedFileName;
-      if (fileObject.useMoment) {
-        parsedFileName = getMomentFromFile(fileName);
-      } else {
-        parsedFileName = fileName;
-      }
+      const getParsedName = () => {
+        if (fileObject.useMoment) {
+          return getMomentFromFile(fileName);
+        } else {
+          return fileName;
+        }
+      };
       plugin.addCommand({
         id: fileName,
         name: `Open ${fileName.substring(
@@ -1748,7 +1752,7 @@ var SpecificFilesPlugin = class extends import_obsidian3.Plugin {
             let found = false;
             this.app.workspace.iterateAllLeaves((leaf) => {
               const file = leaf.view.file;
-              if (!found && (file == null ? void 0 : file.path) === parsedFileName) {
+              if (!found && (file == null ? void 0 : file.path) === getParsedName()) {
                 this.app.workspace.setActiveLeaf(leaf, {
                   focus: true
                 });
@@ -1757,12 +1761,12 @@ var SpecificFilesPlugin = class extends import_obsidian3.Plugin {
             });
             if (!found) {
               plugin.app.workspace.openLinkText(
-                parsedFileName,
+                getParsedName(),
                 ""
               );
             }
           } else {
-            plugin.app.workspace.openLinkText(parsedFileName, "");
+            plugin.app.workspace.openLinkText(getParsedName(), "");
           }
         }
       });
@@ -1774,7 +1778,7 @@ var SpecificFilesPlugin = class extends import_obsidian3.Plugin {
         )} in new tab`,
         callback: () => {
           plugin.app.workspace.openLinkText(
-            parsedFileName,
+            getParsedName(),
             "",
             "tab"
           );
@@ -1801,7 +1805,7 @@ var SpecificFilesPlugin = class extends import_obsidian3.Plugin {
               });
             });
             const tfile = this.app.vault.getAbstractFileByPath(
-              parsedFileName
+              getParsedName()
             );
             leaf.openFile(tfile);
           }

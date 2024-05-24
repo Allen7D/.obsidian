@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6bda45e9124a5f64",
+        "id": "9318e3b7669a14c8",
         "type": "tabs",
         "children": [
           {
-            "id": "6dfaf18d7a39e525",
+            "id": "7b89856653a85686",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React 源码/未命名.md",
+                "file": "技术学习/构建工具/package.json 字段解读.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38c009f66aa471b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术学习/Rust/《Rust 圣经》/100 Exercises To Learn Rust.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Allen7D/ImageHosting/assets",
+                "query": "VSCode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React 源码/未命名.md"
+                "file": "技术学习/Rust/《Rust 圣经》/100 Exercises To Learn Rust.md"
               }
             }
           },
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React 源码/未命名.md",
+                "file": "技术学习/Rust/《Rust 圣经》/100 Exercises To Learn Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React 源码/未命名.md",
+                "file": "技术学习/Rust/《Rust 圣经》/100 Exercises To Learn Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,88 +167,108 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "4d21d920c14763dc",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "outliner-md:New outliner file": false,
       "switcher:打开快速切换": false,
       "daily-notes:打开/创建今天的日记": false,
       "canvas:新建白板": true,
-      "graph:查看关系图谱": false,
+      "graph:查看关系图谱": true,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "zk-prefixer:创建时间戳笔记": true,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "workbench-obsidian:Workbench": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "homepage:Open homepage": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "float-search:Search Obsidian In Modal": true,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "templater-obsidian:Templater": false,
+      "vscode-editor:新建代码文件": true,
+      "code-editor:Sample Plugin1": false,
+      "float-search:Search Obsidian In Modal": false,
+      "obsidian42-brat:BRAT": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6dfaf18d7a39e525",
+  "active": "38c009f66aa471b9",
   "lastOpenFiles": [
-    "元技能/未命名.canvas",
-    "React/React 源码/未命名.md",
-    "技术书籍/《Babel 插件通关秘籍》/未命名 1.md",
-    "深入 TypeScript/未命名.md",
-    "@暂存/Bug记录.md",
-    "@暂存/Bug 修复进度.md",
-    "@暂存/异常提示&脚本能力拓展.md",
-    "@暂存/图元概述.md",
-    "@暂存/图符.md",
-    "@暂存/临时笔记.md",
-    "SupconWork/SupconDesign/Ant Design 架构解析.canvas",
-    "Taro/TaroMusic/项目初始化.md",
-    "图符.md",
-    "SupconWork/HMIKit/动态-显隐.md",
-    "SupconWork/HMIKit/动态-闪烁.md",
-    "元技能/Obsidian/安装 Obsidian （麒麟机）.md",
-    "SupconWork/HMIKit/动态-填充.md",
-    "Excalidraw/Drawing 2023-04-27 20.39.23.excalidraw.md",
-    "Excalidraw/DataLink 数据结构.excalidraw.md",
-    "Excalidraw/流程图渲染流程.excalidraw.md",
-    "Pasted Image 20231103163227_736.png",
-    "Daily/Diary/2024-02-18.md",
-    "@暂存/启蒙App.md",
-    "Daily/Diary/2024-02-12.md",
-    "Daily/Diary/2024-02-17.md",
-    "Git/Git 技巧.md",
+    "技术学习/Rust/《Rust 圣经》/简介.md",
+    "技术学习/Rust/《Rust 圣经》/100 Exercises To Learn Rust.md",
+    "技术学习/Rust/Rust 的 VSCode 配置.md",
+    "技术学习/构建工具/Lerna.md",
+    "技术学习/构建工具/Storybook.md",
+    "技术学习/构建工具/package.json 字段解读.md",
+    "技术学习/构建工具/Monorepo.md",
+    "元技能/VSCode 配置.md",
+    "元技能/VSCode 插件.md",
+    "元技能/VSCode 技巧.md",
+    "元技能/Windows 常用操作.md",
+    "元技能/工具推荐.md",
+    "元技能/全键盘操作手册.md",
+    "技术学习/深入 JavaScript/JS 堆栈空间的理解.md",
+    "技术学习/深入 JavaScript/未命名.md",
+    "元技能/Vim By Step.md",
+    "元技能/Nginx.md",
+    "元技能/快捷键/Windows 快捷键.md",
+    "元技能/Obsidian/插件/插件 Outliner.MD.md",
+    "元技能/Obsidian/插件/插件 ImageAutoUpload.md",
+    "元技能/Obsidian/插件/插件 Mermaid.md",
+    "元技能/Obsidian/插件/插件 Natural Language Dates.md",
+    "元技能/Obsidian/插件/插件 React Componets.md",
+    "元技能/Obsidian/插件/插件 Admonition.md",
     "@暂存/HTML 技巧.md",
-    "@暂存/未命.md",
+    "@暂存/异常提示&脚本能力拓展.md",
+    "@Assets/2024年4月日历.jpg",
+    "@Assets/Pasted Image 20240327093556_259.png",
+    "@Assets/Pasted image 20240331123956.png",
+    "@Assets/C187B765-2EC3-4D87-8F76-48BC8A5F0B02.png",
+    "@Assets/83590ACC-5EC3-457B-A2AC-8A2F66E316BE.png",
+    "@Assets/57D79E53-3DD9-47ED-92D9-C12D3DCE5603.png",
+    "@Assets/10AA2251-712E-4E50-88E9-446C8D422DF3.png",
+    "@Assets/9D81174F-AEF5-41F7-A825-06E603BDA710.png",
+    "@Assets/1B309EB7-851A-43D3-B45C-359D48FC2AB8.png",
+    "@Assets/0DE398E9-423D-40C6-84DF-F31FADC8D5A4.png",
+    "Dataview/heatmapCalendar.js",
+    "Dataview/countdownV2.js",
+    "Dataview/countdown.js",
+    "技术学习/Rust/《Rust 训练营》",
+    "技术学习/Rust/《Rust 圣经》",
+    "技术学习/Rust/《Rust 实战课程》",
+    "技术学习/Rust",
+    "技术学习/构建工具",
+    "SupconWork/Web3D/未命名.canvas",
+    "BookRes/基础知识/操作系统导论.pdf",
+    "BookRes/基础知识",
+    "元技能/未命名.canvas",
+    "SupconWork/SupconDesign/Ant Design 架构解析.canvas",
     "SupconWork/SupconDesign/未命名.canvas",
-    "Pasted image 20231107105112.png",
-    "Pasted image 20231122162919.png",
-    "Pasted image 20240108160743.png",
-    "Pasted image 20231122165126.png",
-    "Pasted image 20231122164001.png",
-    "Taro/TaroMusic",
-    "Taro",
-    "001A0A81.png",
-    "元技能/Obsidian",
-    "Daily/Diary",
-    "Daily/Week",
     "Daily/未命名.canvas",
     "Daily/未命名 3.canvas",
     "Daily/未命名 2.canvas",
     "Daily/未命名 1.canvas",
-    "Faith/必思集",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "Faith/太二十四45-51",
-    "Faith/澶簩鍗佸洓45-51",
-    "代码调试/Chrome 调试",
-    "代码调试/未命名.canvas",
-    "Pasted Image 20230601155747_370.png",
-    "Pasted Image 20230601153829_431.png",
-    "Pasted Image 20230601155248_503.png"
+    "未命名 1.canvas"
   ]
 }

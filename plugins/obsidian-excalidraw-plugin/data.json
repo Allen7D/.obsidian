@@ -1,5 +1,7 @@
 {
   "folder": "Excalidraw",
+  "cropFolder": "",
+  "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
@@ -13,12 +15,16 @@
   "drawingFilnameEmbedPostfix": " ",
   "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
   "useExcalidrawExtension": true,
+  "cropPrefix": "cropped_",
+  "annotatePrefix": "annotated_",
+  "annotatePreserveSize": false,
   "displaySVGInPreview": true,
   "previewImageType": "SVGIMG",
   "allowImageCache": true,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "400",
+  "height": "",
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
@@ -27,6 +33,9 @@
   "matchThemeTrigger": false,
   "defaultMode": "normal",
   "defaultPenMode": "never",
+  "penModeCrosshairVisible": true,
+  "renderImageInMarkdownReadingMode": false,
+  "renderImageInMarkdownToPDF": false,
   "allowPinchZoom": false,
   "allowWheelZoom": false,
   "zoomToFitOnOpen": true,
@@ -40,6 +49,8 @@
   "hoverPreviewWithoutCTRL": false,
   "linkOpacity": 1,
   "openInAdjacentPane": false,
+  "showSecondOrderLinks": true,
+  "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
   "allowCtrlClick": true,
@@ -52,6 +63,7 @@
   "exportWithTheme": true,
   "exportWithBackground": true,
   "exportPaddingSVG": 10,
+  "exportEmbedScene": false,
   "keepInSync": false,
   "autoexportSVG": false,
   "autoexportPNG": false,
@@ -64,6 +76,7 @@
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
+  "fadeOutExcalidrawMarkup": false,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
   "fieldSuggester": true,
@@ -73,7 +86,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.18",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -166,8 +179,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Team 1",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -203,8 +215,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Team 2",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -271,8 +282,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Jan",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -339,8 +349,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Apr",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -407,8 +416,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Feb",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -475,8 +483,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "May",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -543,8 +550,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Mar",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -611,8 +617,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Jun",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -679,8 +684,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "First Quarter",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -747,8 +751,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Second Quarter",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -1193,8 +1196,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1230,8 +1232,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1267,8 +1268,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1304,8 +1304,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1341,8 +1340,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1378,8 +1376,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -1415,8 +1412,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Task Name",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -1523,8 +1519,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Today",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -1587,8 +1582,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Delayed",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -1651,8 +1645,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Done",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -1715,8 +1708,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Pending",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -1779,8 +1771,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Critical",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "274Xc2InVO0v27tgyXFeu",
@@ -1854,8 +1845,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Button",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "Etrh4XtRun4HwcpDxHarz",
@@ -1929,8 +1919,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Button",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "alz3A2NfagLFZV283DhJ5",
@@ -2004,8 +1993,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "One",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -2072,8 +2060,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Two",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -2140,8 +2127,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Three",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "PVGRZCphDrN1I-HPnt4mT",
@@ -2215,8 +2201,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "ComboBox",
-            "lineHeight": 1.2500000000000018,
-            "baseline": 18
+            "lineHeight": 1.2500000000000018
           },
           {
             "type": "rectangle",
@@ -2372,8 +2357,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "/",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "text",
@@ -2411,8 +2395,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "/",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -2823,8 +2806,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "42",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "rectangle",
@@ -3135,8 +3117,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Button",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -3263,8 +3244,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Button",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -3386,8 +3366,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "Button",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -3509,8 +3488,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "+",
-            "lineHeight": 1.25,
-            "baseline": 25
+            "lineHeight": 1.25
           }
         ],
         "id": "c-LM-cO_0uaqKB_lMmNS2",
@@ -3673,8 +3651,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "?",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "Uo7HT3nwHKAzHi6nf8_UC",
@@ -4105,8 +4082,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Checkbox",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "PHiyV3xaaN12HFct4lcuc",
@@ -4180,8 +4156,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Selected",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -4303,8 +4278,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Indeterminate",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -4422,8 +4396,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "1ZR7INd2TGY5n5J4wH_bi",
@@ -4497,8 +4470,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled selected",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -4620,8 +4592,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled indeterminate",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -4739,8 +4710,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Radio",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "iHnZBJ7-ki-AKKEAaMNnv",
@@ -4814,8 +4784,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Selected",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "ellipse",
@@ -4918,8 +4887,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Indeterminate",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -5039,8 +5007,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           }
         ],
         "id": "QHG8DkY4LXv-dhzcVPz9z",
@@ -5114,8 +5081,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled selected",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "ellipse",
@@ -5218,8 +5184,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Disabled indeterminate",
-            "lineHeight": 1.25,
-            "baseline": 18
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -5339,8 +5304,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "B",
-            "lineHeight": 1.2666666666666673,
-            "baseline": 24
+            "lineHeight": 1.2666666666666673
           },
           {
             "type": "rectangle",
@@ -5407,8 +5371,7 @@
             "verticalAlign": "middle",
             "containerId": null,
             "originalText": "style",
-            "lineHeight": 1.2726777844668697,
-            "baseline": 11
+            "lineHeight": 1.2726777844668697
           },
           {
             "type": "rectangle",
@@ -5659,8 +5622,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "U",
-            "lineHeight": 1.25,
-            "baseline": 22
+            "lineHeight": 1.25
           },
           {
             "type": "line",
@@ -5742,8 +5704,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "S",
-            "lineHeight": 1.2499999999999998,
-            "baseline": 26
+            "lineHeight": 1.2499999999999998
           },
           {
             "type": "line",
@@ -6176,8 +6137,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "1",
-            "lineHeight": 1.1500000000000006,
-            "baseline": 10
+            "lineHeight": 1.1500000000000006
           },
           {
             "type": "text",
@@ -6215,8 +6175,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "2",
-            "lineHeight": 1.0541666666666671,
-            "baseline": 9
+            "lineHeight": 1.0541666666666671
           },
           {
             "type": "text",
@@ -6254,8 +6213,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "3",
-            "lineHeight": 1.0541666666666671,
-            "baseline": 9
+            "lineHeight": 1.0541666666666671
           },
           {
             "type": "line",
@@ -6859,7 +6817,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "2.0.18",
+  "previousRelease": "2.1.6",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -7500,5 +7458,7 @@
   },
   "slidingPanesSupport": false,
   "areaZoomLimit": 1,
+  "longPressDesktop": 500,
+  "longPressMobile": 500,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }

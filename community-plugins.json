@@ -24,7 +24,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "mysnippets-plugin",
   "settings-search",
-  "float-search",
   "obsidian-icon-folder",
   "obsidian-style-settings",
   "obsidian-image-toolkit",
@@ -33,5 +32,11 @@
   "nldates-obsidian",
   "homepage",
   "contribution-graph",
-  "obsidian-day-planner"
+  "obsidian-day-planner",
+  "vscode-editor",
+  "code-editor",
+  "obsidian-image-auto-upload-plugin",
+  "float-search",
+  "obsidian42-brat",
+  "outliner-md"
 ]

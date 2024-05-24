@@ -30,5 +30,7 @@
   "colorOverrides": [],
   "editMode": "simple",
   "copyOnDrag": false,
-  "releaseNotes": true
+  "releaseNotes": true,
+  "showDataviewMigrationWarning": true,
+  "unscheduledTasksHeight": 100
 }

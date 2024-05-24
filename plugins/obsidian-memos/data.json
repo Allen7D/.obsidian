@@ -1,8 +1,8 @@
 {
   "StartDate": "Sunday",
-  "InsertAfter": "##### Memos",
+  "InsertAfter": "## Memos",
   "UserName": "水深之处",
-  "ProcessEntriesBelow": "",
+  "ProcessEntriesBelow": "## Memos",
   "Language": "en",
   "SaveMemoButtonLabel": "NOTEIT",
   "SaveMemoButtonIcon": "✍️",
